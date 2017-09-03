@@ -1,7 +1,248 @@
 body {
-  padding-top: 50px;
+  padding: none;
 }
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
+
+<link rel="stylesheet" href="https://fontlibrary.org/face/caladea">
+<link rel="stylesheet" href="https://fontlibrary.org/face/aileron">
+
+
+/* navigation menu styles start*/
+
+* {box-sizing: border-box; margin: 0;}
+.widget {
+  padding: 20px;
+  border: 5px solid #f1f1f1;
+  background: #fff;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  float: left: ;
+}
+.widget h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  color:  #424949;
+}
+.widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 250px;
+}
+.widget li {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.widget li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.widget a {
+  text-decoration: none;
+  color:  #616a6b;
+  display: inline-block;
+}
+.widget li:before {
+  font-family: FontAwesome;
+  font-size: 20px;
+  vertical-align:bottom;
+  color: #dd3333; 
+  margin-right: 14px;
+}
+.widget li:nth-child(1):before {content:"\f1fc";}
+.widget li:nth-child(2):before {content:"\f0d0";}
+.widget li:nth-child(3):before {content:"\f0cd";}
+.widget li:nth-child(4):before {content:"\f028";}
+.widget li:nth-child(5):before {content:"\f03d";}
+
+/* navigation menu styles end*/
+
+/* header styles start*/
+
+.header{
+	background: url('../img/header-bg.jpg') no-repeat bottom;
+	height: 800px;
+	position: relative;
+	}
+
+.header-text{
+	text-align: center;
+	position: absolute;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+	}
+
+.header h1{
+	font-family: "Caladea";
+	font-size: 48px;
+	}
+
+.header h1 span{
+	color: rgba(214, 60, 55, 1.0);
+	}
+
+.header p{
+	font-family: "Aileron";
+	font-size: 18px;
+}
+
+/* header styles end*/
+
+/* main-section styles start*/
+
+.main-section {
+	background-color: rgba(246, 246, 246, 1.0);
+	height: 800px;
+	}
+
+.main-section h2{
+	font-family: "Caladea";
+	font-size: 36px;
+}
+
+.main-section h2 span{
+	color: rgba(214, 60, 55, 1.0);
+	text-decoration: underline;
+}
+
+.main-section p, .main-section li{
+	font-family: "Aileron";
+	font-size: 18px;
+}
+
+.main-section li span{
+	color: rgba(214, 60, 55, 1.0);
+}
+
+.main-section ul li:nth-child(1){
+ list-style-image: url('../img/main-section-dot1.png');
+}
+.main-section ul li:nth-child(2){
+ list-style-image: url('../img/main-section-dot2.png');
+}
+.main-section ul li:nth-child(3){
+ list-style-image: url('../img/main-section-dot3.png');
+}
+
+.main-section-image{
+	float: left;
+}
+
+.main-section-image img{
+	height: 400px;
+}
+
+/* main-section styles end*/
+
+/* footer-section styles start*/
+
+.footer-section{
+	height: 800px;
+		background-color: rgba(214, 60, 55, 1.0);
+}
+
+.footer-section h2 {
+	font-family: "Caladea";
+	font-size: 36px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer-section h3, .footer-section p{
+	font-family: "Aileron";
+	font-size: 18px;
+}
+
+.footer-section h3{
+	font-weight: bold;
+}
+
+.advantage_block{
+	display: inline-block;
+	border: 1px dashed black;
+}
+
+/* footer-section styles end*/
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
