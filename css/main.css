@@ -178,11 +178,13 @@ body {
 /* footer-section styles end*/
 
 ul {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
 }
+
 ul:after {
     display: block;
     content: ' ';
@@ -196,34 +198,42 @@ ul.menu > li {
 ul.menu > li > a {
     display: block;
     padding: 10px;
-    color: white;
-    background-color: red;
+    color: rgba(51, 51, 51, 1.0);
+    /* background-color: red; */
     text-decoration: none;
 }
-ul.menu > li > a:hover {
+
+/* ul.menu > li > a:hover {
     background-color: black;
-}
+} */
+
 ul.submenu {
     display: none;
     position: absolute;
-    width: 120px;
-    top: 37px;
+    width: 40px;
+    top: 40px;
     left: 0;
-    background-color: white;
-    border: 1px solid red;
+    /* background-color: white; */
+    /* border: 1px solid red; */
 }
 ul.submenu > li {
     display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1px;
 }
+
+ul.submenu > li:hover{
+    display: block;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 ul.submenu > li > a {
     display: block;
     padding: 10px;
-    color: white;
-    background-color: red;
-    text-decoration: none;
-}
-ul.submenu > li > a:hover {
-    text-decoration: underline;
+    color: rgba(51, 51, 51, 1.0);
+    text-align: center;
+	
 }
 
 ul.menu > li:hover > ul.submenu {
